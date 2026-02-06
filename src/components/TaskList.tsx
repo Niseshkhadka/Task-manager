@@ -1,5 +1,4 @@
 import type { Task } from "@/types/tasks";
-import React from "react";
 import TaskItems from "./Taskitems";
 interface Props {
   tasks: Task[];

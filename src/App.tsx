@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { Card } from "./components/ui/card";
 import Taskinput from "./components/Taskinput";
 import type { Task } from "./types/tasks";
@@ -20,7 +20,6 @@ function App() {
     setTask((prev) => 
     prev.filter ((task) => task.id != id));
   };
-  const completedcount = tasks.filter ((t) => t.completed).length;
   return (
     <div className="max-w-xl mx-auto mt-14">
       <Card className="p-6 shadow-mid">
